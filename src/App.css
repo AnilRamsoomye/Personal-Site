@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header {
+  background: url(/src/images/city2.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 800px;
+}
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav-wrap {
+  font: 12px sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
+  /* hide toggle button */
+  /*  > means select nav-wrap element with parent class of a(element) and mobile-btn class*/
+  #nav-wrap > a.mobile-btn { display: none; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  ul#nav {
+    min-height: 48px;
+    width: auto;
+  
+    /* center align the menu */
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
   }
-  to {
-    transform: rotate(360deg);
+   /* Links */
+   ul#nav li a {
+  
+    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+    
+      display: inline-block;
+      padding: 8px 40px;
+      line-height: 32px;
+     text-decoration: none;
+      text-align: left;
+      color: #fff;
+    
+     -webkit-transition: color .2s ease-in-out;
+     -moz-transition: color .2s ease-in-out;
+     -o-transition: color .2s ease-in-out;
+     -ms-transition: color .2s ease-in-out;
+     transition: color .2s ease-in-out;
+    }
+    
+    ul#nav li a:active { background-color: transparent!important; }*/
+    ul#nav li.current a { color: #ee1e1c; }
+    #info {
+      color: #ffff;
+      font-family: Raleway;
+      font-weight: bold;
+      letter-spacing: 2px;
+      padding-top: 150px;
+      padding-left: 20px;
+      position: relative;
+      display: block;
+      
+      
+    }
+   #info h1, #info h3, #info h5 {
+      padding: 8px;
+      display: flex;
+   }
+    #info h1{
+      font-size: 60px;
+
+    }
+    #info h3, #info h5 {
+      font-size: 20px;
+    }
+
+    .social {
+      padding-top: 8px;
+      padding-left: 195px;
+    }
+    .social a {
+      color: white;
+      padding: 8px;
+      font-size: 20px;
+    }
+    .social a:visited {
+      text-decoration: none;
+    }
+    .grid {
+      display: grid;
+      color: white;
+      grid-auto-flow: column;
+      grid-gap: 50px;
+      padding: 20px;
+      align-content: center;
+      list-style: none;
+      grid-template-columns:  auto  auto;
+      grid-template-rows:  auto auto;
+      background-color: inherit;
+      overflow: scroll;
+    }
+    .grid .b, .grid .c{
+      place-self: center;
+      text-align: center;
+      font-family: verdana;
+      font-size: 20px;
+    }
+    b {
+      font-weight: bold;
+    }
+    i {
+      font-style: italic;
+    }
+    .grid .a {
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 60px;
+      text-decoration: underline;
+      text-decoration-color: #ee1e1c;
+      place-self: start;
+    }
+    #about {
+      background-color: #020504;
+      padding-top: 75px;
+    
+    }
+
+    #resume {
+      padding-top: 75px;
+      background-color: #e4e4e9;
+    }
+    .grid .subHeading {
+      font-family: Raleway;
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-color: #ee1e1c;
+      font-size: 40px;
+      padding-top: 50px;
+  
+    }
+    .grid2 {
+      display: grid;
+      height:auto;
+      grid-template-columns:  auto  auto auto auto;
+      grid-template-rows:  auto auto;
+      list-style: none;
+      font-family: Verdana;
+      font-size: 25px;
+      grid-gap: 15px;
+      text-align: center;
+      padding-top: 20px;
+      justify-self: center;
+    }
+
+    .grid .e {
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 60px;
+      text-decoration: underline;
+      text-decoration-color: #0b45b2;
+      place-self: start;
+      color: black;
+    }
+
+  
+    .item {
+      display: inline-block;
+    }
+    .grid .download{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+
+    .f {
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 60px;
+      color: white;
+      text-decoration: underline;
+      text-decoration-color: #ee1e1c;
+      place-self: start;
+      padding-top: 75px;
+      padding-left: 20px;
+    }
+    #rotate{
+      display: inline-block;
+      font-size: 40px;
+      font-family: arial;
+      width: fill;
+      background-color: #0b45b2;
+      color: #e4e4e9;
+    }
+    .contactInfo {
+      font-family: Raleway;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      align-self: center;
+
+    }
+    #rotate:hover {
+      color:#0b45b2;
+      border-color: currentColor;
+      background-color: #e4e4e9;
+    }
+    .first {
+      padding-top: 20px;
+    }
+    .second {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      font-weight: bold;
+    }
+    #contact{
+      color:white;
+    }
+    #rotate:active {
+      transform: translateY(1px);
+      filter: saturate(150%);
+    }
+    
+    html {
+      scroll-behavior: smooth;
   }
-}
