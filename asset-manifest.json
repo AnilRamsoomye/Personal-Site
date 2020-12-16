@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Site/static/css/main.07861039.chunk.css",
+    "main.css": "/Personal-Site/static/css/main.3863b27c.chunk.css",
     "main.js": "/Personal-Site/static/js/main.3fee9dc5.chunk.js",
     "main.js.map": "/Personal-Site/static/js/main.3fee9dc5.chunk.js.map",
     "runtime-main.js": "/Personal-Site/static/js/runtime-main.264309a6.js",
@@ -10,7 +10,7 @@
     "static/js/3.66d52ee0.chunk.js": "/Personal-Site/static/js/3.66d52ee0.chunk.js",
     "static/js/3.66d52ee0.chunk.js.map": "/Personal-Site/static/js/3.66d52ee0.chunk.js.map",
     "index.html": "/Personal-Site/index.html",
-    "static/css/main.07861039.chunk.css.map": "/Personal-Site/static/css/main.07861039.chunk.css.map",
+    "static/css/main.3863b27c.chunk.css.map": "/Personal-Site/static/css/main.3863b27c.chunk.css.map",
     "static/js/2.9da4b45d.chunk.js.LICENSE.txt": "/Personal-Site/static/js/2.9da4b45d.chunk.js.LICENSE.txt",
     "static/media/anil.0ea97333.jpg": "/Personal-Site/static/media/anil.0ea97333.jpg",
     "static/media/App.css": "/Personal-Site/static/media/city2.c60ce4bc.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.264309a6.js",
     "static/js/2.9da4b45d.chunk.js",
-    "static/css/main.07861039.chunk.css",
+    "static/css/main.3863b27c.chunk.css",
     "static/js/main.3fee9dc5.chunk.js"
   ]
 }
