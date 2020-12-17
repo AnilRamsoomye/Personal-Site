@@ -138,6 +138,9 @@ header {
       font-family: verdana;
       font-size: 20px;
     }
+    .grid .c {
+      padding-bottom: 20px;
+    }
     b {
       font-weight: bold;
     }
@@ -145,7 +148,7 @@ header {
       font-style: italic;
     }
     .grid .a {
-      font-family: Raleway;
+      font-family: Futura;
       font-weight: bold;
       font-size: 60px;
       text-decoration: underline;
@@ -163,7 +166,7 @@ header {
       background-color: #e4e4e9;
     }
     .grid .subHeading {
-      font-family: Raleway;
+      font-family: Futura;
       font-weight: bold;
       text-decoration: underline;
       text-decoration-color: #ee1e1c;
@@ -186,7 +189,7 @@ header {
     }
 
     .grid .e {
-      font-family: Raleway;
+      font-family: Futura;
       font-weight: bold;
       font-size: 60px;
       text-decoration: underline;
@@ -200,14 +203,13 @@ header {
       display: inline-block;
     }
     .grid .download{
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+      align-self: center;
+      
     }
     
 
     .f {
-      font-family: Raleway;
+      font-family: Futura;
       font-weight: bold;
       font-size: 60px;
       color: white;

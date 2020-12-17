@@ -82,12 +82,12 @@ class App extends Component {
         <section id = "resume" ref={this.myRef3} > 
         <div style={{  }} />
         <ul class="grid" >
-            <li class="item e"><div>Resume</div><div class="download"><a href={resume} download="Anil_Ramsoomye_Resume"><input type="button" value="Download Resume" id="rotate" /></a></div></li>
-            <li></li>
+            <li class="item e"><div>Resume</div></li>
+            <li class="download"><div><a href={resume} download="Anil_Ramsoomye_Resume"><input type="button" value="Download Resume" id="rotate" /></a></div></li>
     
-            <li><iframe src="https://resume.creddle.io/embed/7q9m5v32hp"
+            <li></li>
+        <li><iframe src="https://resume.creddle.io/embed/7q9m5v32hp"
   width="850px" height="1100px" seamless></iframe></li>
-        <li></li>
 
         </ul>
         </section>
